@@ -3,7 +3,7 @@ const mostrarTabla = (event) => {
     const numero = Number(document.getElementById('numero').value);
     if (numero >= 0 && numero <= 10) {
         let tabla = document.getElementById('tabla');
-        let tablaDividir = `<h2>Tabla de multiplicar del número ${numero}</h2>`;
+        let tablaDividir = `<h2>Tabla de dividir del número ${numero}</h2>`;
         tablaDividir += '<ul>';
         for (let i = 1; i <= 10; i++) {
             tablaDividir += `<li>${numero} / ${i} = ${numero / i}</li>`;
